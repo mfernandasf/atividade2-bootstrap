@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>JuáTour - Seu Guia Turístico de Juazeiro do Norte</title>
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="#destaques"
+                  >Destaques</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="#pontos"
+                  >Pontos Turísticos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <!-- end navbar -->
+
+      <!-- card 1 -->
+      <section class="text-center py-5">
+        <div class="bg-dark bg-opacity-50 p-4 rounded">
+          <h1 class="text-white">JuáTour</h1>
+          <p class="text-white fs-5">
+            Seu Guia Turístico de Juazeiro do Norte
+          </p>
+        </div>
+      </section>
+      <!-- end card 1-->
+
+      <!-- carousel -->
+      <main>
+      <section class="carousel">
+      <div id="destaques">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/bomjesus.webp"
+                class="d-block w-100"
+                alt="Igreja do Bom Jesus do Horto"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="text-light">Igreja Bom Jesus do Horto</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/estatua.jpg"
+                class="d-block w-100"
+                alt="Estátua do Padre Cícero Romão"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Estátua do Padre Cícero - Horto</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/fundacao.jpg"
+                class="d-block w-100"
+                alt="Fundação Memorial Padre Cícero"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Fundação Memorial Padre Cícero</h2>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+      <!-- end carousel -->
+
+      <!-- card -->
+      <section class="cards">
+      <div id="pontos">
+        <div class="container my-4">
+          <div class="row">
+            <h2 class="text-center">Conheça os principais Pontos Turísticos da cidade de Juazeiro Norte, no Cariri Cearense.</h2>
+            <p class="text-center">Uma cidade rica em cultura, fé e tradição.</p>
+
+            <!-- Estátua do Padre Cícero Romão -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets/estatua.jpg"
+                  class="card-img-top"
+                  alt="Estátua do Padre Cícero Romão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Estátua do Padre Cícero - Horto</h5>
+                  <p class="card-text">
+                    A estátua do Padre Cícero Romão Batista, localizada na
+                    Colina do Horto em Juazeiro do Norte, Ceará.
+                  </p>
+                  <a
+                    href="https://hortodopadrecicero.net.br/"
+                    class="btn btn-primary"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Igreja Bom Jesus do Horto -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets//bomjesus.webp"
+                  class="card-img-top"
+                  alt="Igreja Bom Jesus do Horto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Igreja Bom Jesus do Horto</h5>
+                  <p class="card-text">
+                    Igreja localizada ao lado da estátua do Padre Cícero, ponto
+                    turístico importante de Juazeiro do Norte.
+                  </p>
+                  <a
+                    href="https://hortodopadrecicero.net.br/"
+                    class="btn btn-primary"
+                    tabindex="-1"
+                    role="button"
+                    aria-disabled="true"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fundação Memorial Padre Cícero -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets/fundacao.jpg"
+                  class="card-img-top"
+                  alt="Memorial Padre Cícero"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Fundação Memorial Padre Cícero</h5>
+                  <p class="card-text">
+                    Tem por missão preservar a memória e tradição cultural do
+                    Cariri Cearense, bem como do Padre Cícero.
+                  </p>
+                  <a
+                    href="https://www.instagram.com/memorialpadrecicero/"
+                    class="btn btn-primary"
+                    tabindex="-1"
+                    role="button"
+                    aria-disabled="true"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Basílica Menor de Nossa Senhora das Dores - Matriz -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets/matriz-de-nossa-senhora.webp"
+                  class="card-img-top"
+                  alt="Basílica Menor de Nossa Senhora das Dores - Matriz"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Basílica Menor de Nossa Senhora das Dores - Matriz
+                  </h5>
+                  <p class="card-text">
+                    Construída em 1875, pelo Padre Cícero Romão Batista, a
+                    Basílica de Nossa Senhora das Dores é um dos pontos de
+                    grande visitação de Juazeiro do Norte.
+                  </p>
+                  <a
+                    href="https://maedasdoresjuazeiro.com/"
+                    class="btn btn-primary"
+                    tabindex="-1"
+                    role="button"
+                    aria-disabled="true"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Capela do Socorro - Juazeiro do Norte -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets/capela.webp"
+                  class="card-img-top"
+                  alt="Capela do Socorro"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Capela do Socorro</h5>
+                  <p class="card-text">
+                    A Capela de Nossa Senhora do Perpétuo Socorro foi construída
+                    entre os anos de 1908 e 1909. É um dos lugares considerados
+                    sagrados e de grande visitação em Juazeiro, principalmente
+                    durante a Romaria de Finados.
+                  </p>
+                  <a
+                    href="https://maedasdoresjuazeiro.com/postagens/capela-do-socorro"
+                    class="btn btn-primary"
+                    tabindex="-1"
+                    role="button"
+                    aria-disabled="true"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Santo Sepulcro - Juazeiro do Norte -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets/Santo-Sepulcro-Juazeiro-do-Norte-CE-MTur.webp"
+                  class="card-img-top"
+                  alt="Santo Sepulcro"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Santo Sepulcro</h5>
+                  <p class="card-text">
+                    O Santo Sepulcro é o local onde foi enterrado um dos beatos
+                    que viveram na época do Padre Cícero e apresenta duas
+                    capelinhas, onde os romeiros acendem velas e fazem suas
+                    preces.
+                  </p>
+                  <a
+                    href="https://juazeirodonorte.ce.gov.br/pontosturisticos.php?id=18"
+                    class="btn btn-primary"
+                    tabindex="-1"
+                    role="button"
+                    aria-disabled="true"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Museu Vivo Padre Cícero -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets/Casa_museu_padre_cicero_-_juazeiro_do_norte_-_ce.webp"
+                  class="card-img-top"
+                  alt="Museu Vivo Padre Cícero"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Museu Vivo Padre Cícero</h5>
+                  <p class="card-text">
+                    Inaugurado em dia 1º de novembro de 1999, no velho Casarão
+                    do Horto, retrata e preserva, em personagens em tamanho
+                    real, a vida e obra religiosa do padre Cícero Romão Batista.
+                  </p>
+                  <a
+                    href="https://juazeirodonorte.ce.gov.br/pontosturisticos.php?id=18"
+                    class="btn btn-primary"
+                    tabindex="-1"
+                    role="button"
+                    aria-disabled="true"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Santuário de São Francisco das Chagas -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets/santuario-sao-francisco.webp"
+                  class="card-img-top"
+                  alt="Santuário de São Francisco das Chagas"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Santuário de São Francisco das Chagas - Juazeiro do Norte
+                  </h5>
+                  <p class="card-text">
+                    Sob os cuidados da Ordem dos Frades Menores Capuchinhos
+                    (OFMCap) foi edificado o Santuário dedicado a São Francisco
+                    das Chagas, Inaugurado em 06 de janeiro de 1950.
+                  </p>
+                  <a
+                    href="https://juazeirodonorte.ce.gov.br/pontosturisticos.php?id=18"
+                    class="btn btn-primary"
+                    tabindex="-1"
+                    role="button"
+                    aria-disabled="true"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Santuário do Sagrado Coração de Jesus - Juazeiro do Norte -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="assets/santuario-sagrado-coracao.webp"
+                  class="card-img-top"
+                  alt="Santuário do Sagrado Coração de Jesus"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Santuário do Sagrado Coração de Jesus - Juazeiro do Norte
+                  </h5>
+                  <p class="card-text">
+                    A Igreja dos Salesianos, como é mais conhecida pelos fiéis,
+                    começou a ser construída em 1949 e foi inaugurada em 7 de
+                    maio de 1978. Sua arquitetura imponente possui o estilo
+                    barroco europeu e foi edificada a partir de uma maquete que
+                    o Padre Cícero trouxe de Roma.
+                  </p>
+                  <a
+                    href="https://juazeirodonorte.ce.gov.br/pontosturisticos.php?id=15"
+                    class="btn btn-primary"
+                    tabindex="-1"
+                    role="button"
+                    aria-disabled="true"
+                    target="_blank"
+                    >Saiba mais</a
+                  >
+                  <button type="button" class="btn btn-primary">Como chegar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- end card -->
+
+      <!-- footer -->
+    <section class="rodape">
+      <footer class="bg-dark text-white py-3">
+        <div class="container">
+        <p class="text-center mb-0">
+        Desenvolvido por Maria Fernanda
+        </p>
+        <p class="text-center mb-0">
+        © Todos os direitos reservados. 
+        </p>
+        </div>
+      </footer>
+    </section>
+    </main>
+  </body>
+</html>
